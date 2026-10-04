@@ -1,0 +1,14 @@
+capture,metric,population,value,unit,evidence_class,note
+floppy-read,complete_as_cycles,all,756949,cycles,OBSERVED MEASUREMENT,
+floppy-read,floppy_window_cycles,all,91500,cycles,OBSERVED MEASUREMENT,A23:A19=11011 at /AS
+floppy-read,floppy_cycles,read,91500,cycles,OBSERVED MEASUREMENT,
+floppy-read,lds_level_at_as,read;0=active,0=91500,levels,OBSERVED MEASUREMENT,
+floppy-read,lds_first_assert_offset,read,0=66173,ns,OBSERVED MEASUREMENT,+120/+130 are one edge across a sample boundary
+floppy-read,t1_as_to_dtack,read,90=11516;100=79984,ns,OBSERVED MEASUREMENT,
+floppy-read,as_cycle_duration,read,310=44134;320=47366,ns,OBSERVED MEASUREMENT,
+floppy-read,dtack_release_minus_as_rise,read,100=62541;110=28959,ns,OBSERVED MEASUREMENT,positive = releases after /AS rises
+floppy-read,floppy_cycles,write,0,cycles,OBSERVED MEASUREMENT,
+floppy-read,c16m_period_rising_to_rising,all,63.8281,ns,OBSERVED MEASUREMENT,
+floppy-read,c16m_frequency,all,15.6671,MHz,OBSERVED MEASUREMENT,same-polarity edges; GMFH90 A says 15.6672
+floppy-read,drq_transitions,all,0,transitions,OBSERVED MEASUREMENT,0 = static high = deasserted
+floppy-read,dack_transitions,all,0,transitions,OBSERVED MEASUREMENT,0 = static high = deasserted

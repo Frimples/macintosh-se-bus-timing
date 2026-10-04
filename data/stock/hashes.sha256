@@ -1,0 +1,21 @@
+# SHA-256 for every raw capture in this repository.
+# Generated from the ORIGINAL acquisition files; each was verified against its
+# source at publication time.
+# Verify with:  sha256sum -c data/stock/hashes.sha256   (run from repo root)
+#
+# CH7 PROVENANCE NOTE:
+# The floppy captures' embedded acquisition metadata labels CH7 as "PMCYC".
+# That label is WRONG. CH7 was physically clipped to DACK (SCSI DMA
+# acknowledge). PMCYC was NOT captured at all.
+# These originals are published UNMODIFIED, wrong label included -- that label
+# is evidence of what the acquisition software was told. The correction is
+# applied at analysis time:
+#     python3 scripts/sr_to_arrays.py CAPTURE.sr OUTDIR --rename PMCYC=DACK
+#
+# The 16:17:47 SCSI capture's CH7 physical identity is AMBIGUOUS (live signal,
+# consistent with either net). It is not claimed here. See docs/probe-map.md.
+9ecb7bc76ee59465f43cd3b30a218718af50ab1df837b430133f42b75af4fb1c  captures/stock/idle/stock-se-idle-16ch-a5a3-drq-100mhz-2m.sr
+99fb1dd8eab940a4522c093f0fd63a7ff29461881424a3d6142974537576c6a1  captures/stock/floppy-read/stock-se-floppy-read-16ch-a5a3-drq-100mhz-50m.sr
+d659cbad99c1d6ee87e810d24bcee56ee493a0a79d47ba97857eb29df2370b6f  captures/stock/floppy-write/stock-se-floppy-write-16ch-a5a3-drq-100mhz-50m.sr
+441a3a054ac7c5cb0b58af6e28121092df2641b9b27f935fa114619963ecd22b  captures/stock/scsi-read/stock-se-scsi-read-16ch-a5a3-drq-100mhz-20m.sr
+cf907940f58a6b2a848483bff9ad4114d646f40e92c4ae2294ce9063cb1f241f  captures/stock/scsi-read/stock-se-scsi-read-16ch-drq-dack-a5a3-100mhz-20m.sr

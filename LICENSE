@@ -1,0 +1,70 @@
+MIT License
+
+Copyright (c) 2026 macintosh-se-bus-timing contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+SCOPE OF THIS LICENSE — PLEASE READ
+
+This license covers ONLY the ORIGINAL CONTENT AUTHORED FOR THIS REPOSITORY:
+
+  - the scripts in scripts/
+  - the documentation in docs/, README.md, CONTRIBUTING.md, and this file
+  - the CSV summaries in data/
+  - the manifest in data/PUBLICATION-MANIFEST.md
+  - the recorded logic-analyser captures in captures/
+
+THIRD-PARTY MATERIAL IS NOT LICENSED HERE AND IS NOT INCLUDED
+
+This repository contains NO copyrighted third-party material. Specifically, it
+does NOT contain, and this license does NOT grant any right to:
+
+  - Apple schematics, technical documents, manuals, or firmware
+  - Macintosh ROM images or disk images
+  - Motorola or NCR (LSI) datasheets, application notes, or design manuals
+  - Commercial software of any kind
+  - Period magazine scans or other published articles
+  - Sigrok or libsigrok source code
+
+Where this repository cites such a document, it provides ONLY the citation:
+title, author, publisher, year and page. Readers must obtain those documents
+from their original sources.
+
+PRODUCT NAMES AND SPECIFICATIONS
+
+"Macintosh", "Macintosh SE", "MC68000", "AM5380", "NCR", "Motorola", "Apple",
+"Kingst" and "LA2016" are trade names of their respective owners, used here for
+identification only. Their appearance in this repository does not imply
+endorsement, affiliation, or any right to their associated documentation or
+software.
+
+APPLE, MACINTOSH, MACOS AND THE APPLE LOGO ARE TRADEMARKS OF APPLE INC.
+
+FURTHER READING
+
+If you want to reproduce any of the measurements in this repository on your own
+hardware, that is encouraged and is the point of the dataset. What you cannot do
+is redistribute the vendor documents behind the citations.
+
+The sigrok `.sr` capture container format is used here as a data interchange
+format. Any sigrok or libsigrok software you use to read it is licensed
+separately by its own authors under its own terms; no sigrok code is included
+in this repository.

@@ -1,0 +1,28 @@
+# analysis intermediates
+work/
+*.npz
+*.npy
+
+# VCD exports — regenerable from the .sr captures via scripts/sr_to_arrays.py
+# (or sigrok-cli where a build with the srzip input module is available)
+*.vcd
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# editors / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# never commit credentials or local configuration
+.env
+*.key
+*.pem

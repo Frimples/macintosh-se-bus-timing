@@ -1,0 +1,15 @@
+capture,metric,population,value,unit,evidence_class,note
+floppy-read-vs-write,floppy_cycles,read,91500 read / 0 write,cycles,OBSERVED MEASUREMENT,read capture is write-protected
+floppy-read-vs-write,floppy_cycles,write,61716 read / 717 write,cycles,OBSERVED MEASUREMENT,WARNING: write capture is 98.85% READS
+floppy-read-vs-write,lds_active_at_as,read,100.00,percent,OBSERVED MEASUREMENT,/LDS low at /AS on 91500 of 91500
+floppy-read-vs-write,lds_active_at_as,write,0.00,percent,OBSERVED MEASUREMENT,/LDS high at /AS on all 717 writes
+floppy-read-vs-write,lds_first_assert_offset,read,0,ns,OBSERVED MEASUREMENT,or already active
+floppy-read-vs-write,lds_first_assert_offset,write,120;130,ns,OBSERVED MEASUREMENT,one edge quantised either side of a boundary
+floppy-read-vs-write,separation,read_vs_write,100,percent,OBSERVED MEASUREMENT,zero overlap
+floppy-read-vs-write,t1_dominant,both,90;100,ns,OBSERVED MEASUREMENT,no long-ack class on floppy
+floppy-read-vs-write,t1_extra_write_only,write,110,ns,OBSERVED MEASUREMENT,10 of 717 write cycles (1.39%)
+floppy-read-vs-write,dtack_release_after_as_rise,both,100;110,ns,OBSERVED MEASUREMENT,never negative; identical read and write
+floppy-read-vs-write,rw_setup_dominant,write,-10,ns,OBSERVED MEASUREMENT,661 of 717 write cycles
+floppy-read-vs-write,address_setup_dominant,both,-50,ns,OBSERVED MEASUREMENT,"A3/A4/A5, zero in-cycle address changes"
+floppy-read-vs-write,dack_transitions,both,0,transitions,OBSERVED MEASUREMENT,static high in both directions; stock comparator
+floppy-read-vs-write,mechanism_of_lds_phase_shift,n/a,UNRESOLVED,n/a,UNRESOLVED,"A0 and D0-D15 not probed; strobe phase is the measurement, not a cause"

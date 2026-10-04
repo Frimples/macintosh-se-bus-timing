@@ -1,0 +1,19 @@
+capture,metric,population,value,unit,evidence_class,note
+floppy-write,complete_as_cycles,all,789725,cycles,OBSERVED MEASUREMENT,
+floppy-write,floppy_window_cycles,all,62433,cycles,OBSERVED MEASUREMENT,A23:A19=11011 at /AS
+floppy-write,floppy_cycles,read,61716,cycles,OBSERVED MEASUREMENT,
+floppy-write,lds_level_at_as,read;0=active,0=61716,levels,OBSERVED MEASUREMENT,
+floppy-write,lds_first_assert_offset,read,0=44704,ns,OBSERVED MEASUREMENT,+120/+130 are one edge across a sample boundary
+floppy-write,t1_as_to_dtack,read,90=7081;100=54635,ns,OBSERVED MEASUREMENT,
+floppy-write,as_cycle_duration,read,310=28161;320=33555,ns,OBSERVED MEASUREMENT,
+floppy-write,dtack_release_minus_as_rise,read,100=43162;110=18554,ns,OBSERVED MEASUREMENT,positive = releases after /AS rises
+floppy-write,floppy_cycles,write,717,cycles,OBSERVED MEASUREMENT,
+floppy-write,lds_level_at_as,write;0=active,1=717,levels,OBSERVED MEASUREMENT,
+floppy-write,lds_first_assert_offset,write,120=348;130=369,ns,OBSERVED MEASUREMENT,+120/+130 are one edge across a sample boundary
+floppy-write,t1_as_to_dtack,write,90=10;100=697;110=10,ns,OBSERVED MEASUREMENT,
+floppy-write,as_cycle_duration,write,310=267;320=450,ns,OBSERVED MEASUREMENT,
+floppy-write,dtack_release_minus_as_rise,write,100=476;110=241,ns,OBSERVED MEASUREMENT,positive = releases after /AS rises
+floppy-write,c16m_period_rising_to_rising,all,63.8281,ns,OBSERVED MEASUREMENT,
+floppy-write,c16m_frequency,all,15.6671,MHz,OBSERVED MEASUREMENT,same-polarity edges; GMFH90 A says 15.6672
+floppy-write,drq_transitions,all,0,transitions,OBSERVED MEASUREMENT,0 = static high = deasserted
+floppy-write,dack_transitions,all,0,transitions,OBSERVED MEASUREMENT,0 = static high = deasserted
